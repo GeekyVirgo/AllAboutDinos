@@ -146,7 +146,8 @@
                                 class="img-fluid imgCenter">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button type="button" class="btn btn-lg btn-danger btnCenter">Cretaceous
+                                    <button type="button" class="btn btn-lg btn-danger btnCenter" data-toggle="modal"
+                                        data-target=".cretaceous-modal">Cretaceous
                                         Period</button>
                                 </div>
                             </div>
@@ -155,7 +156,8 @@
                             <img src="jurassicPeriodDinos.jpg" alt="Jurassic Period Dinos" class="img-fluid imgCenter">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button type="button" class="btn btn-lg btn-danger btnCenter">Jurassic
+                                    <button type="button" class="btn btn-lg btn-danger btnCenter" data-toggle="modal"
+                                        data-target=".jurassic-modal">Jurassic
                                         Period</button>
                                 </div>
                             </div>
@@ -164,7 +166,8 @@
                             <img src="TriassicPeriodDinos.jpg" alt="Triassic Period Dinos" class="img-fluid imgCenter">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <button type="button" class="btn btn-lg btn-danger btnCenter">Triassic
+                                    <button type="button" class="btn btn-lg btn-danger btnCenter" data-toggle="modal"
+                                        data-target=".triassic-modal">Triassic
                                         Period</button>
                                 </div>
                             </div>
@@ -175,7 +178,7 @@
         </div>
 
 
-        <!-- Modal -->
+        <!-- Modals -->
         <!-- Dino surprise modal -->
         <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="coolStuffLabel"
             aria-hidden="true">
@@ -219,6 +222,48 @@
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cretaceous Period Modal -->
+    <div class="modal fade cretaceous-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KkiF4Oix6Vo"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="learnMore">Learn more about the dinosaurs of the Cretaceous Period!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jurassic Period Modal -->
+    <div class="modal fade jurassic-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7b9KRvx40XY"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="learnMore">Learn more about the dinosaurs of the Jurassic Period!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Triassic Period Modal -->
+    <div class="modal fade triassic-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YF11Ae4P4_Y"
+                        allowfullscreen></iframe>
+                </div>
+                <p class="learnMore">Learn more about the dinosaurs of the Triassic Period!</p>
             </div>
         </div>
     </div>

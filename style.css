@@ -49,3 +49,11 @@ h5.modal-title {
     margin-bottom: 20px;
     width: 100%;
 }
+
+p.learnMore {
+    text-align: center;
+    background-color: olive;
+    color: white;
+    font-weight: 400;
+    padding: 5px;
+}
